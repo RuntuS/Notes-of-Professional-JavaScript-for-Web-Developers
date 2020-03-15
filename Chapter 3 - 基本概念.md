@@ -1,5 +1,37 @@
 > 本章主要讲述了Js中的一些基本概念，从变量，数据类型，运算符到函数，对象都有所提及。
 
+
+> 目录
+[1. 前提概述](#前提概述)
+[2. 标识符](#标识符)
+[3. 严格模式(use strict)](#严格模式use-strict)
+[4. 变量](#变量)   
+&emsp;[4.1 未声明的危险](#未声明的危险) 
+[5. 数据类型](#数据类型)
+&emsp;[5.1 Object.prototype.toString()](#objectprototypetostring)
+&emsp;[5.2 特殊的Undefined类型](#特殊的undefined类型)
+&emsp;[5.3 特殊的Null类型](#特殊的null类型) 
+&emsp;[5.4 Boolean对象](#boolean对象)
+&emsp;[5.5 Number类型](#number类型)  
+&emsp;[5.6 NaN](#nan)       
+&emsp;&emsp;[5.6.1 数值范围](#数值范围) 
+&emsp;&emsp;[5.6.2 数值转换](#数值转换)
+&emsp;[5.7 String类型](#string类型)
+&emsp;&emsp;[5.7.1 转化为字符串的方法1: toString()](#转化为字符串的方法1-tostring)
+&emsp;&emsp;[5.7.2 转换为字符串的方法2: String();](#转换为字符串的方法2-string)
+&emsp;[5.8 Object类型](#object类型)
+[6.操作符](#操作符)
+&emsp;[6.1 自增与自减操作符的强制转换](#自增与自减操作符的强制转换)
+&emsp;[6.2 逻辑运算在对象中的运用](#逻辑运算在对象中的运用)
+&emsp;[6.3 相等操作符](#相等操作符)
+[7. 语句](#语句)
+&emsp;[7.1 for-in 语句](#for-in-语句)
+&emsp;[7.2 label语句](#label语句)
+[8 函数Function](#函数function)
+&emsp;[8.1 参数传值arguments](#参数传值arguments)
+>
+
+
 #  前提概述
 * 这里总结的笔记大多是ES3定义的语法规则，并且对ES5中的修改加一阐述。
 
@@ -181,7 +213,7 @@ undefined === null; // false
 * **除了false，""(空字符串),undefined,null,NAN**这五类值会被转化为false，其他都会被转化为true。
 
 
-### Number类型
+## Number类型
 * js中的Number类型都是使用**IEEE 754**格式来表示的。
 * 所以浮点数的相加并不是一件好事，因为某些浮点数转化为二进制是“无穷的”(类似于除法的除不尽。)
 ```javascript
