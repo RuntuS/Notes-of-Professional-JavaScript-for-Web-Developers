@@ -1,22 +1,22 @@
 > BOM对象 -> Browser Object Model 浏览器对象模型 顾名思义，其主要功能是控制浏览器的属性
 
 -------
-[1. window](#1-window)
-&nbsp; [1.1. Configurable导致的不可删除性](#11-\configurable导致的不可删除性)
-&nbsp; [1.2. 关于窗口frame -> 补充: frame标签已经废弃](#12-关于窗口frame---补充-frame标签已经废弃)
-&nbsp; [1.3. window获得浏览器窗口位置属性](#13-window获得浏览器窗口位置属性)
-&nbsp; [1.4. 窗口大小](#14-窗口大小)
-&nbsp; &nbsp; [1.4.1. document](#141-document)
-&nbsp; [1.5. 导航与打开窗口](#15-导航与打开窗口)
-&nbsp; [1.6. setTimeout与setInterval](#16-settimeout与setinterval)
-&nbsp; [1.7. 对话框](#17-对话框)
-[2. location](#2-location)
-&nbsp; [2.1. search与href](#21-search与href)
-&nbsp; [2.2. 跳转 -> assign 操作](#22-跳转---assign-操作)
-&nbsp; [2.3. 重新记载reload](#23-重新记载reload)
-[3. screen对象](#3-screen对象)
-[4. history对象](#4-history对象)
-&nbsp; [4.1. go,back,forward](#41-gobackforward)
+[1. window](#1-window)  
+&nbsp; [1.1. Configurable导致的不可删除性](#11-\configurable导致的不可删除性)  
+&nbsp; [1.2. 关于窗口frame -> 补充: frame标签已经废弃](#12-关于窗口frame---补充-frame标签已经废弃)  
+&nbsp; [1.3. window获得浏览器窗口位置属性](#13-window获得浏览器窗口位置属性)  
+&nbsp; [1.4. 窗口大小](#14-窗口大小)  
+&nbsp; &nbsp; [1.4.1. document](#141-document)  
+&nbsp; [1.5. 导航与打开窗口](#15-导航与打开窗口)  
+&nbsp; [1.6. setTimeout与setInterval](#16-settimeout与setinterval)  
+&nbsp; [1.7. 对话框](#17-对话框)  
+[2. location](#2-location)  
+&nbsp; [2.1. search与href](#21-search与href)  
+&nbsp; [2.2. 跳转 -> assign 操作](#22-跳转---assign-操作)  
+&nbsp; [2.3. 重新记载reload](#23-重新记载reload)  
+[3. screen对象](#3-screen对象)  
+[4. history对象](#4-history对象)  
+&nbsp; [4.1. go,back,forward](#41-gobackforward)  
 -------
 
 
